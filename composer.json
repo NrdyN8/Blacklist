@@ -1,0 +1,20 @@
+{
+  "name": "nrdyn8/blacklist",
+  "description": "Adds a blacklist to file validation",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nathan Hale",
+      "email": "nathan@haletek.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "nrdyn8\\blacklist\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
