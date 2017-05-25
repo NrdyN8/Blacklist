@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "nrdyn8\\blacklist\\": "src/"
+      "NrdyN8\\Blacklist\\": "src/"
     }
   },
   "minimum-stability": "dev"
