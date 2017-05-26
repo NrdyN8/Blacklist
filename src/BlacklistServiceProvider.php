@@ -42,7 +42,7 @@ class BlacklistServiceProvider extends ServiceProvider
             $fileExtension = explode('.', $value->getClientOriginalName());
             $fileExtension = $this->getTrueFileExtension($fileExtension);
             if(in_array($fileMimeType[0], $parameters) || in_array($fileMimeType[1], $parameters)) {
-                $this->isWhiteListed($fileMimeType, $parameters);
+                return $this->isWhiteListed($fileMimeType, $parameters);
             }
             return true;
         });
